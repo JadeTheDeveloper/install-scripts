@@ -7,7 +7,7 @@ read BOOTPARTITION
 echo "Mounting filesystems"
 mount /dev/$HOMEPARTITION /mnt/gentoo
 swapon /dev/$SAWPPARTITION
-echo "Getting OpenRC base tarball
+echo "Getting OpenRC base tarball"
 wget https://distfiles.gentoo.org/releases/amd64/autobuilds/20230730T170144Z/stage3-amd64-openrc-20230730T170144Z.tar.xz
 mv stage3-amd64-openrc-20230730T170144Z.tar.xz /mnt/gentoo
 cd /mnt/gentoo
